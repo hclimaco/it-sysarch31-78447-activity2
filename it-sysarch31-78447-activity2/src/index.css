@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: red;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.firstname {
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center; 
+  list-style-type: none;
+  padding: 0;
+  padding-left: 500px;
+
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu li a:hover {
+  color: #666;
+}
+
+.footer {
+  background-color: red;
+  padding: 1rem;
+  text-align: left;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.student-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.student {
+  width: calc(25% - 20px); /* 25% width for each student with 20px spacing between them */
+  margin: 10px; /* Adjust the spacing between students as needed */
+}
+
+.student-box {
+  border: 1px solid #ccc; /* Add border to the student box */
+  padding: 10px; /* Add padding inside the student box */
+  margin: 10px; /* Add margin around the student box */
+  width: calc(25% - 20px); /* 25% width for each student box with 20px spacing between them */
+  box-sizing: border-box; /* Include border and padding in the width calculation */
+  text-align: center; /* Center align all content within the student box */
+}
+
+.student-photo {
+  width: 100px; /* Set width for the student photo */
+  height: 100px; /* Set height for the student photo */
+  border-radius: 50%; /* Make the photo round */
+  margin-bottom: 10px; /* Add margin to separate photo from details */
+}
+
+
+
+
+
